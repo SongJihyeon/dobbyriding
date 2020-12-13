@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-7ExtraBold';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream-5Medium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-4Regular';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+
+	.head {
+        font-family: 'S-CoreDream-5Medium';
+        font-size: 18px;
+        text-align: center;
+        margin-top: 100px;
+        color:#566270;
+	}
+	
+	.list {
+		font-family: 'S-CoreDream-5Medium';
+        font-size: 15px;
+	}
+	.bottom {
+		font-family: 'S-CoreDream-5Medium';
+        font-size: 12px;
+        text-align: right;
+        margin-top: 20px;
+		width:95%;
+	}
+	table{
+		width:90%;
+		margin: 0 auto;
+		text-align: center;
+		border-spacing: 0;
+		margin-top: 50px;
+	}
+	table.type{
+		border-collapse: separate;
+		  border-spacing: 1px;
+		  text-align: center;
+		  line-height: 1.5;
+		  border-top: 1px solid #ccc;
+
+	}
+	table.type th {
+	  padding: 10px;
+	  font-weight: bold;
+	  vertical-align: center;
+	  border-bottom: 1px solid #ccc;
+	  background: #566270;
+	  color:white;
+	}
+	
+	table.type td,tr {
+	font-family: 'S-CoreDream-4Regular';
+	  padding: 8px;
+	  vertical-align: center;
+	  border-bottom: 1px solid #ccc;
+	}
+	
+	.btn{
+      text-decoration: none;
+      color:white;
+      padding:8px 12px 8px 12px;
+      display:inline-block;
+      border-radius: 7px;
+      transition:all 0.1s;
+      background-color: #A593E0;
+    }
+    
+    .btn-b{
+    text-decoration: none;
+      color:#566270;
+      padding:3px 7px 3px 7px;
+      display:inline-block;
+      border-radius: 7px;
+      transition:all 0.1s;
+      background-color: #E0E3DA;
+    }
+
+	

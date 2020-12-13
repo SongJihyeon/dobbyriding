@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-7ExtraBold';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream-5Medium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-4Regular';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: 'S-CoreDream-5Medium';
+
+}
+.head {
+	font-family: 'S-CoreDream-5Medium';
+	font-size: 18px;
+	text-align: center;
+	margin-top: 100px;
+	color:#566270;
+	}
+	
+.middle {
+	font-family: 'S-CoreDream-4Regular';
+	font-size: 15px;
+	text-align: left;
+	position: absolute;
+        left: 50%;
+        top: 300px;
+       	transform:translate(-50%,-50%);
+}
+
+input[type=text] {
+    padding:10px; 
+    border:1px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding:12px; 
+    border:1px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #efefef;
+    font-family: 'S-CoreDream-5Medium';
+    color:#566270;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit]{
+	 text-decoration: none;
+      color:white;
+      padding:8px 12px 8px 12px;
+      display:inline-block;
+      border-radius: 7px;
+      transition:all 0.1s;
+      background-color: #A593E0;
+      border:0px
+}
+
+.list{
+    
+      text-decoration: none;
+      color:white;
+      padding:8px 12px 8px 12px;
+      border-radius: 5px;
+      transition:all 0.1s;
+      background-color: #566270;
+      font-size: 12px;
+      vertical-align: center;
+}
+
+.basic-slide {
+  display: inline-block;
+  padding: 10px 12 0px 15px;
+  color: #566270;
+  background: #efefef;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+}
+
+table{
+	width:100%;
+	height:100%;
+}
+	
